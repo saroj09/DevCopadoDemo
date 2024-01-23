@@ -1,0 +1,23 @@
+<template>
+    <lightning-card  title="Two way data binding">
+        <lightning-button label="New" slot="actions" onclick={nameChange}></lightning-button>
+        <p class="slds-p-horizontal_small">
+            <lightning-input label="Enter your name" onchange={nameChange}></lightning-input>
+        </p>
+        <p class="slds-p-horizontal_medium">My name is : {fullName}</p>
+    </lightning-card>
+
+    <lightning-card  title="@track properties">
+        <p class="slds-p-horizontal_small">
+            <lightning-input label="Enter your city" onchange={trackHandler}></lightning-input>
+        </p>
+        <p class="slds-p-horizontal_medium">My city is : {address.city} </p>
+    </lightning-card>
+
+    <lightning-card  title="Getter properties">
+        <p class="slds-p-horizontal_medium">Users first Name is : {firstUser}</p>
+        <p class="slds-p-horizontal_medium">Multiplication of {num1} and {num2} is : {multiply} </p>
+    </lightning-card>
+
+
+</template>

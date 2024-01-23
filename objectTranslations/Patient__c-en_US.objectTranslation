@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Patient</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Patients</value>
+    </caseValues>
+    <fields>
+        <label><!-- Area --></label>
+        <name>Area__c</name>
+        <relationshipLabel><!-- Patients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cure Date --></label>
+        <name>Cure_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fatal Date --></label>
+        <name>Fatal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Days to Cure --></label>
+        <name>Number_of_Days_to_Cure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Days to Fatal --></label>
+        <name>Number_of_Days_to_Fatal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cured</masterLabel>
+            <translation><!-- Cured --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fatal</masterLabel>
+            <translation><!-- Fatal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mild</masterLabel>
+            <translation><!-- Mild --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
